@@ -1,0 +1,50 @@
+/* below 375px */
+
+@media (max-width:375px){
+    .partner-x-small{
+        text-align: center;
+        padding: 20px;
+    }
+
+    .partners-container-xs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .each-partner{
+        margin: 20px 0px;
+        width:200px ;
+    }
+
+    .partner-text{
+        font-family: "Work Sans";
+        font-weight: 700;
+        font-size: 16px;
+        font-style: normal;
+    }
+
+    .partner-large-devices{
+        display: none;
+    }
+
+}
+
+
+/* above 375px */
+@media (min-width:375px){
+    .partner-x-small{
+        display: none;
+    }
+
+    .partner-large-devices{
+        text-align: center;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .each-partner{
+        margin: 5px;
+    }
+}

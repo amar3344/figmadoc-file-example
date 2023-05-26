@@ -1,0 +1,36 @@
+/* below 375px */
+
+@media (max-width:375px){
+    .xs-team-container{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .large-team-container{
+        display: none;
+    }
+
+    .xs-nav-links{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: 10px 0px 0px 0px;
+    }
+}
+
+/* above 375px */
+
+@media (min-width:375px){
+    .xs-team-container{
+        display: none;
+    }
+
+    .large-team-container{
+        padding: 30px;
+        text-align: center;
+    }
+
+    .each-image-team{
+        width: 250px;
+    }   
+}

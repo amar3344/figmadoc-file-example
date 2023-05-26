@@ -1,0 +1,37 @@
+/* below 375px device */
+
+@media (max-width:375px){
+    .unnamed-xs-container{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .text-unnamed-xs{
+        text-align: left;
+    }
+
+    .unnamed-large-container{
+        display: none;
+    }
+}
+
+
+/* above 375px device */
+@media (min-width:375px){
+    .unnamed-xs-container{
+        display: none;
+    }
+
+    .unnamed-large-container{
+        padding: 20px 30px;
+    }
+
+    .each-box{
+        display: flex;
+    }
+
+    .text-unnamed-xs{
+        padding: 30px;
+    }
+
+}

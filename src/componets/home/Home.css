@@ -1,0 +1,44 @@
+/* for x-small below-375px devices */
+@media (max-width:375px){
+    .x-small-devices{
+        background-color: #74C69D;
+        padding: 20px;
+    }
+
+    .image1{
+        width: 100%;
+        margin: 87px 0px 0px 0px;
+    }
+
+    .welcome-container{
+        margin: 30px 0px 0px 0px;
+    }
+
+    .largr-devices{
+        display: none;
+    }
+
+}
+
+/* for below-375px devices */
+@media (min-width:375px){
+    .x-small-devices{
+        display: none;
+    }
+
+    .largr-devices{
+        background-color: #74C69D;
+        padding: 20px 40px 40px 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image1{
+        order: 1;
+    }
+
+    .welcome-container{
+        order: 0;
+    }
+}
