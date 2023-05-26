@@ -30,12 +30,12 @@ const Footer = () => {
     <Box className="footer-large-container">
       <Box className="contact-container-xs">
           <img src={footerFacebok} alt="footerFacebok"/>
-          <img src={insta} alt="insta"/>
-          <img src={twitter} alt="twitter"/>
-          <img src={pinsert} alt="pinsert"/>
-          <img src={watsapp} alt="watsapp"/>
-          <img src={tiktok} alt="tiktok"/>
-          <img src={youtube} alt="youtube"/>
+          <img src={insta} alt="insta" className="footer-icons"/>
+          <img src={twitter} alt="twitter" className="footer-icons"/>
+          <img src={pinsert} alt="pinsert" className="footer-icons"/>
+          <img src={watsapp} alt="watsapp" className="footer-icons"/>
+          <img src={tiktok} alt="tiktok" className="footer-icons"/>
+          <img src={youtube} alt="youtube" className="footer-icons"/>
       </Box>
       <Box className="footer-text-xs">
           <Typography sx={{color:"#fff"}}>@Start,2022. all rights reserved</Typography>

@@ -41,7 +41,14 @@
         width: 50%;
         display: flex;
         justify-content: space-evenly;
+
+    }
+
+    .footer-icons{
+        width: 20px;
+        height: 20px;
     }
 
     
 }
+

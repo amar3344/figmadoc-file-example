@@ -34,8 +34,8 @@ const Partner = () => {
         <img src={airbnb} alt="airbnb" className="each-partner"/>
         <img src={facebook} alt="facebook" className="each-partner"/>
         <img src={spotify} alt="spotify" className="each-partner"/>
-        <Button variant="contained" sx={{bgcolor:"#212529",color:"#fff",border:"none",borderRadius:"5px",margin:"25px 0px 40px 0px",}}>Learn More</Button>
     </Box>
+    <Button variant="contained" sx={{bgcolor:"#212529",color:"#fff",border:"none",borderRadius:"5px",margin:"25px 0px 40px 0px",}}>Learn More</Button>
 </Box>
 </Box>
   )

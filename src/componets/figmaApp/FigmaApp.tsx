@@ -9,6 +9,8 @@ import Partner from '../partners/Partner'
 import Unnamed from '../unNamed/Unnamed'
 import Team from '../team/Team'
 import Footer from '../footer/Footer'
+import Portfolio from '../portfolioPage/Portfolio'
+import Service from '../servicesPage/ServicePage'
 
 interface IProps{
 
@@ -29,7 +31,8 @@ class FigmaApp extends Component{
           <Unnamed/>
           <Team/>
           <Footer/>
-  
+          <Portfolio/>
+          {/* <Service/> */}
       </Box>
     )
     
