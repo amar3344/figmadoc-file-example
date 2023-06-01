@@ -2,21 +2,20 @@
 @media (max-width:375px){
     .x-small-devices{
         background-color: #74C69D;
-        padding: 20px;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+   
+    .largr-devices{
+        display: none;
     }
 
     .image1{
-        width: 100%;
-        margin: 87px 0px 0px 0px;
-    }
-
-    .welcome-container{
-        margin: 30px 0px 0px 0px;
-    }
-
-    .largr-devices{
-        display: none;
+        width: 60%;
     }
 
 }
@@ -29,17 +28,22 @@
 
     .largr-devices{
         background-color: #74C69D;
-        padding: 20px 40px 40px 40px;
+        padding: 20px 0px 40px 0px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .image1{
-        order: 1;
+        width: 35%;
     }
 
-    .welcome-container{
-        order: 0;
-    }
 }
+
+
+
+.welcome-container{
+    margin: 0px 0px 0px 0px;
+    width: 60%;
+}
+

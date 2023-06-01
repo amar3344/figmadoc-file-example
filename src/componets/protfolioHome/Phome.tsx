@@ -48,7 +48,7 @@ const Phome = () => {
             <img src={img7} alt="img-7" className="each-image-phome"/>
             <img src={img8} alt="img-8" className="each-image-phome"/>
         </Box>
-        <Button variant="contained" className="phome-button">Learn More</Button>
+        <Button variant="contained" className="phome-button" sx={{fontSize:"30px"}}>Learn More</Button>
     </Box>
     </>
   )

@@ -1,0 +1,53 @@
+@media (max-width:375px){
+    .small-devices{
+        text-align: center;
+        padding: 20px;
+    }
+
+    .med-large-devices{
+        display: none;
+    }
+
+    .each-width-input{
+        width:85%;
+    }
+    
+    .map-image{
+        width: 95%;
+    }
+}
+
+.text-fields-cont{
+    text-align: left;
+}
+
+
+
+@media (min-width:375px){
+    .small-devices{
+        display: none;
+    }
+
+    .med-large-devices{
+       text-align: center;
+       padding: 20px;
+    }
+
+    .text-fields-cont{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .each-width-input{
+        width:85%;
+    }
+    
+    .map-image{
+        width: 45%;
+        padding: 10px;
+    }
+
+    .input-fields{
+        width: 45%;
+    }
+}

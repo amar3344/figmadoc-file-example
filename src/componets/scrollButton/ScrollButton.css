@@ -1,0 +1,20 @@
+
+
+.arrow-button{
+    background-color: rgba(255, 166, 0, 0.651);
+    color: #fff;
+    border-radius: 100%;
+    /* scroll-behavior: smooth; */
+}
+
+.scroll-button{
+    position: static;
+    /* bottom: 0vh; */
+    /* top: 120px;
+    bottom: 0px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    cursor: pointer;
+    /* scroll-behavior: smooth; */
+}

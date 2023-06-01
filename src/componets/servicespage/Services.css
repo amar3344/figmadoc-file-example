@@ -1,0 +1,43 @@
+@media (max-width:375px){
+
+    .small-devices-services-css,.each-card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .each-card{
+        width: 85%;
+    }
+
+    .med-large-devices-services{
+        display: none;
+    }
+
+}
+
+@media (min-width:375px){
+    .small-devices-services-css{
+        display: none;
+    }
+
+    .med-large-devices-services{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .each-card-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .each-card{
+        width: 30%;
+    }
+}

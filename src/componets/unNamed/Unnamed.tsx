@@ -7,7 +7,7 @@ import "./Unnamed.css"
 
 const Unnamed = () => {
   return (
-    <Box id="services">
+    <Box>
     <Box className="unnamed-xs-container">
         <img src={image2} alt="image2" width="100%" />
         <Box className="text-unnamed-xs">
@@ -28,24 +28,24 @@ const Unnamed = () => {
     </Box>
     <Box className="unnamed-large-container">
       <Box className="each-box">
-        <img src={image2} alt="image2" />
+        <img src={image2} alt="image2" className="image-width" />
           <Box className="text-unnamed-xs">
-              <Typography variant="h6" sx={{fontFamily:"Crimson Text",fontWeight:"700",fontSize:"24px",color:"#212529"}}>Lorem ipsum dolor sit amet consectetur </Typography>
-              <Typography sx={{fontFamily:"Work Sans",fontWeight:"400",fontSize:"15px",color:"rgba(33, 37, 41, 0.5)",margin:"20px 0px"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+              <Typography variant="h6" sx={{fontFamily:"Crimson Text",fontWeight:"700",fontSize:{xs:"12px",sm:"18px",lg:"24px",xl:"30px"},color:"#212529"}}>Lorem ipsum dolor sit amet consectetur </Typography>
+              <Typography sx={{fontFamily:"Work Sans",fontWeight:"400",fontSize:{xs:"12px",sm:"18px",lg:"24px",xl:"30px"},color:"rgba(33, 37, 41, 0.5)",margin:"20px 0px"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                   Suscipit nemo hic quos, ab, dolor aperiam nobis cum
                   est eos error ipsum, voluptate culpa nesciunt delectus iste?</Typography>
-                  <Button variant="contained" sx={{bgcolor:"#212529",color:"#fff",border:"none",borderRadius:"5px",margin:"25px 0px 40px 0px",}}>Learn More</Button>
+                  <Button variant="contained" sx={{bgcolor:"#212529",color:"#fff",fontSize:{xs:"12px",sm:"18px",lg:"24px",xl:"30px"},margin:"25px 0px 40px 0px",}}>Learn More</Button>
           </Box>
       </Box>
       <Box className="each-box">
         <Box className="text-unnamed-xs">
-            <Typography variant="h6" sx={{fontFamily:"Crimson Text",fontWeight:"700",fontSize:"24px",color:"#212529"}}>Lorem ipsum dolor sit amet consectetur </Typography>
-            <Typography sx={{fontFamily:"Work Sans",fontWeight:"400",fontSize:"15px",color:"rgba(33, 37, 41, 0.5)",margin:"20px 0px"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            <Typography variant="h6" sx={{fontFamily:"Crimson Text",fontWeight:"700",fontSize:{xs:"12px",sm:"18px",lg:"24px",xl:"30px"},color:"#212529"}}>Lorem ipsum dolor sit amet consectetur </Typography>
+            <Typography sx={{fontFamily:"Work Sans",fontWeight:"400",fontSize:{xs:"12px",sm:"18px",lg:"24px",xl:"30px"},color:"rgba(33, 37, 41, 0.5)",margin:"20px 0px"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                 Suscipit nemo hic quos, ab, dolor aperiam nobis cum
                 est eos error ipsum, voluptate culpa nesciunt delectus iste?</Typography>
-                <Button variant="contained" sx={{bgcolor:"#212529",color:"#fff",border:"none",borderRadius:"5px",margin:"25px 0px 40px 0px",}}>Learn More</Button>
+                <Button variant="contained" sx={{bgcolor:"#212529",color:"#fff",fontSize:{xs:"12px",sm:"18px",lg:"24px",xl:"30px"},margin:"25px 0px 40px 0px",}}>Learn More</Button>
         </Box>
-        <img src={image3} alt="image3"/>
+        <img src={image3} alt="image3" className="image-width"/>
       </Box>
     </Box>
     </Box>

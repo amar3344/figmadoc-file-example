@@ -1,13 +1,13 @@
 import React from 'react'
 import {Box} from "@mui/material"
-import Navbar from '../navbar/Navbar'
-import Phome from '../protfolioHome/Phome'
-import Footer from '../footer/Footer'
+import Navbar from '../../navbar/Navbar'
+import Phome from '../../protfolioHome/Phome'
+import Footer from '../../footer/Footer'
 
 const Portfolio = () => {
   return (
     <Box>
-        {/* <Navbar/> */}
+        <Navbar/>
         <Phome/>
         <Footer/>
     </Box>

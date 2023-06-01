@@ -40,11 +40,18 @@
 
     .partner-large-devices{
         text-align: center;
-        padding: 20px;
         align-items: center;
     }
 
     .each-partner{
-        margin: 5px;
+        margin: 10px;
+        width: 15%;
+    }
+
+    .partners-container-xs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 }

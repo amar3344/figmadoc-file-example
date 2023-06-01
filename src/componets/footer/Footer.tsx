@@ -12,7 +12,7 @@ import "./Footer.css"
 
 const Footer = () => {
   return (
-    <Box id="contact">
+    <Box>
     <Box className="footer-xs-container">
         <Box className="contact-container-xs">
             <img src={footerFacebok} alt="footerFacebok"/>
@@ -38,7 +38,7 @@ const Footer = () => {
           <img src={youtube} alt="youtube" className="footer-icons"/>
       </Box>
       <Box className="footer-text-xs">
-          <Typography sx={{color:"#fff"}}>@Start,2022. all rights reserved</Typography>
+          <Typography sx={{color:"#fff",fontSize:{md:"25px",lg:"30",xl:"35px"}}}>@Start,2022. all rights reserved</Typography>
       </Box>
     </Box>
   </Box>

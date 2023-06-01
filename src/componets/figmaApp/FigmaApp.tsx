@@ -1,16 +1,18 @@
+import {BrowserRouter,Route,Routes} from "react-router-dom"
 import { Component} from 'react'
 import { Box } from '@mui/material'
 
-import Navbar from "../navbar/Navbar"
-import Home from "../home/Home"
-
 import "./FigmaApp.css"
-import Partner from '../partners/Partner'
-import Unnamed from '../unNamed/Unnamed'
-import Team from '../team/Team'
-import Footer from '../footer/Footer'
-import Portfolio from '../portfolioPage/Portfolio'
-import Service from '../servicesPage/ServicePage'
+
+import Home from "../pages/home/Home"
+import Portfolio from '../pages/portfolio/Portfolio'
+import Contacts from '../pages/contacts/Contacts'
+import ServicePage from '../pages/services/Services'
+import SignUp from "../pages/signupPage/SignUp"
+import Signin from "../pages/signinpage/Signin"
+
+import Navbar from "../navbar/Navbar"
+import Footer from "../footer/Footer"
 
 interface IProps{
 
@@ -25,14 +27,18 @@ class FigmaApp extends Component{
   render(){
     return (
       <Box className="react-app">
-          <Navbar/>
-          <Home/>
-          <Partner/>
-          <Unnamed/>
-          <Team/>
-          <Footer/>
-          <Portfolio/>
-          {/* <Service/> */}
+        <BrowserRouter>
+        {/* <Navbar/> */}
+        <Routes>
+          <Route path="/" element={<SignUp/>}/>
+          <Route path="/signin" element={<Signin/>}/>
+          <Route path="/home" element={<Home/>}/>
+          <Route path="/portfolio" element={<Portfolio/>}/>
+          <Route path="/services" element={<ServicePage/>}/>
+          <Route path="/contacts" element={<Contacts/>}/>
+        </Routes>
+        {/* <Footer/> */}
+        </BrowserRouter>
       </Box>
     )
     

@@ -26,11 +26,16 @@
     }
 
     .large-team-container{
-        padding: 30px;
         text-align: center;
     }
 
+    .team-images-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .each-image-team{
-        width: 250px;
-    }   
+        width: 15%;
+    }
 }

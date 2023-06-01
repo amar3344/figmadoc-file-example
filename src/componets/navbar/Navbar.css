@@ -5,8 +5,8 @@
     .navbar-xs-container{
         background-color: #74C69D;
         padding: 10px;
-        position: fixed;
-        top: 0%;
+        /* position: fixed;
+        top: 0%; */
     }
 
     .navbar-con{
@@ -41,10 +41,12 @@
 
     .navbar-large-container{
         display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: #74C69D;
-        padding: 10px 30px 30px 30px;
-        position: sticky;
-        top: 0%;
+        padding: 20px 0px;
+        /* position: sticky;
+        top: 0%; */
     }
 
     .navbar-con{
@@ -57,6 +59,12 @@
     .nav-elements-large{
         display: flex;
         align-items: center;
+    }
+
+    .profile{
+        width: 20px;
+        height: 20px;
+       
     }
 }
 

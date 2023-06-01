@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+@media (max-width:425px){
+    .sign-in-page-small-devices{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .sign-up-page{
+        display: none;
+    }
+
+    .form-className{
+        width: 80%;
+        box-shadow: 2px 2px 8px 8px;
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+
+    .sign-up-className{
+        width: 100%;
+        height: 50%;
+        border: none;
+    }
+    
+}
+
+@media (min-width:426px){
+    .sign-up-page{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .sign-up-page-small-devices{
+    display: none;
+    }
+    .form-className{
+        width: 300px;
+        height: 450px;
+        box-shadow: 2px 2px 8px 8px;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        overflow-y: scroll;
+        scroll-behavior: auto;
+        background-color:transparent;
+        
+    }
+
+    .sign-up-className{
+        width: 30%;
+        height: 45%;
+        border: none;
+        background-color: transparent;
+        
+    }
+
+    .sign-up-labels{
+        font-weight: 600!important;
+        font-family: 'Courier New', Courier, monospace !important;
+        font-size: large !important;
+    }
+
+    .eye-icon{
+        position: relative;
+        cursor: pointer;
+        top: 20px;
+        right: 30px;
+
+    }
+
+    /* .top-notch{
+        width: 80px;
+        height: 20px;
+        background-color: #000;
+        text-align: center;
+    }
+
+    .camera-className{
+        background-color: lightblue;
+        border: 1px solid red;
+        width: 5px;
+        height: 5px;
+        border-radius: 100%;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -ms-border-radius: 100%;
+        -o-border-radius: 100%;
+    } */
+    
+
+}
+
+.form-sign-up-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.text-input{
+    width: 90% !important;
+    border: 1px solid #000 !important;
+    border-radius:8px !important ;
+    -webkit-border-radius:8px !important ;
+    -moz-border-radius:8px !important ;
+    -ms-border-radius:8px !important ;
+    -o-border-radius:8px !important ;
+}
+
+.heading-sinup{
+    text-align: center !important;
+    margin:"20px 0px 0px 0px" !important;
+    padding: 20px 0px 0px 0px !important;
+    font-family: 'Courier New', Courier, monospace !important;
+    font-weight: 600 !important;
+}
+
+
+
+.each-input-sign-up{
+    text-align: left;
+    margin: 10px 0px;
+}
+
+.social-media-container{
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.extra-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+
+.social-images{
+    margin: 5px;
+}
+
+.large-device-extra-buttons{
+    font-size: 10px;
+}
+
+.number-input ::-webkit-outer-spin-button,
+.number-input ::-webkit-inner-spin-button
+{
+
+    -webkit-appearance: none;
+    margin: 0px;
+}
+
+.main-container-singup{
+    background-image: url("https://previews.123rf.com/images/vician/vician1212/vician121200049/16847621-colorful-floral-abstract-background-lorem-ipsum-vector-illustration.jpg");
+    background-size: cover;
+    height: 100%;
+    
+}
+

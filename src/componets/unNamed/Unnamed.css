@@ -23,15 +23,23 @@
     }
 
     .unnamed-large-container{
-        padding: 20px 30px;
+        padding: 20px 0px;
     }
 
     .each-box{
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .text-unnamed-xs{
-        padding: 30px;
+        padding: 40px;
+        width: 45%;
     }
 
+}
+
+.image-width{
+    width: 35%;
+    padding: 20px;
 }
